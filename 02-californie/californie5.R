@@ -34,11 +34,22 @@ v1y = mean_values[1,3]$mean_y
 v2x = mean_values[2,2]$mean_x
 v2y = mean_values[2,3]$mean_y
 
-vax = v1x-v2x
-vay = v1y-v2y
+vmx = (v1x+v2x) / 2
+vmy = (v1y+v2y) / 2
 
-vbx = v2x - v1x
-vby = v2y - v1y
+vax = (v1x-v2x)/2
+vay = (v1y-v2y)/2
+
+vbx = (v2x - v1x)/2
+vby = (v2y - v1y)/2
+
+cat("vmx =", vmx, "\n")
+cat("vmy =", vmy, "\n")
+cat("vax =", vax, "\n")
+cat("vay =", vay, "\n")
+cat("vbx =", vbx, "\n")
+cat("vby =", vby, "\n")
+
 
 data$vx [data$group==1] = vax
 data$vy [data$group==1] = vay
