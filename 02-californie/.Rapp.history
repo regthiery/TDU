@@ -145,31 +145,11 @@ y
 source("/Users/regis/cours/06-book/data/californie.r")
 getwd()
 source("/Users/regis/cours/06-book/data/californie.r")
-source("/Users/regis/cours/06-book/data/californie.r")
-source("/Users/regis/cours/06-book/data/californie.r")
-source("/Users/regis/cours/06-book/data/californie.r")
-source("/Users/regis/cours/06-book/data/californie.r")
-source("/Users/regis/cours/06-book/data/californie.r")
-source("/Users/regis/cours/06-book/data/californie.r")
-source("/Users/regis/cours/06-book/data/californie.r")
-source("/Users/regis/cours/06-book/data/californie.r")
-source("/Users/regis/cours/06-book/data/californie.r")
-source("/Users/regis/cours/06-book/data/californie.r")
 california_map
 source("/Users/regis/cours/06-book/data/californie.r")
 california_map
 usa
 map_data("usa")
-source("/Users/regis/cours/06-book/data/californie.r")
-source("/Users/regis/cours/06-book/data/californie.r")
-source("/Users/regis/cours/06-book/data/californie.r")
-source("/Users/regis/cours/06-book/data/californie.r")
-source("/Users/regis/cours/06-book/data/californie.r")
-source("/Users/regis/cours/06-book/data/californie.r")
-source("/Users/regis/cours/06-book/data/californie.r")
-source("/Users/regis/cours/06-book/data/californie.r")
-source("/Users/regis/cours/06-book/data/californie.r")
-source("/Users/regis/cours/06-book/data/californie.r")
 source("/Users/regis/cours/06-book/data/californie.r")
 je voudrais afficher les limites géographiques de la Californie
 california_map
@@ -186,7 +166,6 @@ source("/Users/regis/cours/06-book/data/californie.r")
 lon
 data$lon
 data
-data
 data <- read.table("californie.txt", header = FALSE)
 data
 colnames(data)
@@ -202,16 +181,6 @@ x=data$Delta.E
 y=data$Delta.N
 plot(x,y)
 source("/Users/regis/cours/06-book/data/californie1.R")
-source("/Users/regis/cours/06-book/data/californie1.R")
-source("/Users/regis/cours/06-book/data/californie1.R")
-source("/Users/regis/cours/06-book/data/californie1.R")
-source("/Users/regis/cours/06-book/data/californie1.R")
-source("/Users/regis/cours/06-book/data/californie1.R")
-source("/Users/regis/cours/06-book/data/californie1.R")
-source("/Users/regis/cours/06-book/data/californie1.R")
-source("/Users/regis/cours/06-book/data/californie1.R")
-source("/Users/regis/cours/06-book/data/californie1.R")
-source("/Users/regis/cours/06-book/data/californie1.R")
 source("/Users/regis/cours/06-book/data/californie2.R")
 5481-4942
 source("/Users/regis/cours/06-book/data/californie3.R")
@@ -224,7 +193,6 @@ mean_values[2,2]$mean_x
 data$group
 source("/Users/regis/cours/06-book/data/californie5.R")
 mean_values[1,3]$mean_y
-source("/Users/regis/cours/06-book/data/californie5.R")
 source("/Users/regis/cours/06-book/data/californie5.R")
 0.3/2
 (2.2+1.4)/2
@@ -242,7 +210,6 @@ source("/Users/regis/Desktop/tokill.R")
 source("/Users/regis/code/TDU/GPSVelocity/californie2.R")
 getwd()
 source("/Users/regis/code/TDU/GPSVelocity/californie1.R")
-source("/Users/regis/code/TDU/GPSVelocity/californie1.R")
 here()
 help(here)
 getwd()
@@ -250,13 +217,10 @@ setwd("/Users/regis/code/TDU/GPSVelocity")
 getwd()
 source("/Users/regis/code/TDU/GPSVelocity/californie1.R")
 source("/Users/regis/code/TDU/GPSVelocity/californie2.R")
-source("/Users/regis/code/TDU/GPSVelocity/californie2.R")
 source("/Users/regis/code/TDU/GPSVelocity/californie3.R")
 source("/Users/regis/cours/06-book/data/californie4.R")
 source("/Users/regis/code/TDU/GPSVelocity/californie4.R")
 source("/Users/regis/code/TDU/GPSVelocity/californie5.R")
 getwd()
-getwd()
 source("/Users/regis/code/TDU/01-islande/ex211.R")
-source("/Users/regis/code/TDU/02-californie/californie5.R")
 source("/Users/regis/code/TDU/02-californie/californie5.R")
