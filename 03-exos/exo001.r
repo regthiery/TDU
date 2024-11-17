@@ -30,3 +30,4 @@ cat(sprintf("- Profondeur du sommet du cône après réajustement isostatique (x
 cat(sprintf("- Hauteur du cône volcanique par rapport au plancher océanique (a) : %.2f m\n", a))
 cat("- Épaisseur de la croûte océanique (e) : Indisponible (non calculée)\n")
 cat(sprintf("- Enfoncement de la croûte océanique sous l'édifice volcanique (R) : %.2f m\n", R))
+
